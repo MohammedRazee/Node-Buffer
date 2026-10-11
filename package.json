@@ -1,0 +1,20 @@
+{
+  "name": "csa4705-lab-buffer-streams",
+  "version": "1.0.0",
+  "description": "CSA4705 Lab - Buffers, Streams and JSON (Module 3)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "node setup.js",
+    "part1": "node part1-buffer-basics.js",
+    "part2": "node part2-buffer-predict.js",
+    "part3": "node part3-buffer-json.js",
+    "part4": "node part4-readable-stream.js",
+    "part5": "node part5-writable-pipeline.js",
+    "part6": "node part6-transform-json.js",
+    "part7:make": "node part7-memory.js make",
+    "part7:readfile": "node part7-memory.js readfile",
+    "part7:stream": "node part7-memory.js stream",
+    "clean": "node clean.js"
+  }
+}
